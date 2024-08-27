@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Site</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="header__nav">
+        <img class="nav__logo" src="./image/logo.png" alt="logo" />
+        <img class="nav__menu" src="./image/burger.png" alt="menu" />
+        <section class="nav__options">
+          <a href="#soy-marce">quien soy</a>
+          <a href="#servi">servicios</a>
+          <a href="#escribime">escribime</a>
+        </section>
+      </nav>
+      <section class="header__banner">
+        <h1>Bienvenidxs a mi site</h1>
+        <img class="header__imagen" src="./image/marce.png" alt="marce" />
+      </section>
+    </header>
+
+    <main>
+      <article class="main__info" id="soy-luca">
+        <section class="section__info">
+          <h2 class="info__h2">Soy Marce</h2>
+          <p class="info__texto">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique. Phasellus
+            placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet
+            lacus. Integer ut iaculis augue, sit amet tincidunt ex. In eleifend
+            justo et sodales semper. Mauris nec tortor lectus. Curabitur nec
+            ultricies dolor.
+          </p>
+        </section>
+        <img class="check" src="./image/check.png" alt="check" />
+      </article>
+
+      <h2 id="servi" class="servi__h2">Mis servicios</h2>
+      <article class="main__servi">
+        <section class="servi__info">
+          <img class="servi__pc" src="./image/desktop.png" alt="pc" />
+          <h3>Hago cosas</h3>
+          <p class="servi__texto">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </section>
+        <section class="servi__info">
+          <img class="servi__pc" src="./image/desktop.png" alt="pc" />
+          <h3>Y más cosas</h3>
+          <p class="servi__texto">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </section>
+        <section class="servi__info">
+          <img class="servi__pc" src="./image/desktop.png" alt="pc" />
+          <h3>Y también otras cosas</h3>
+          <p class="servi__texto">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </section>
+      </article>
+
+      <article id="escribime" class="main__form">
+        <h2 class="form__h2">Escribime</h2>
+        <form class="form" method="post">
+          <label class="form__label" for="name"> NOMBRE </label>
+          <input type="text" id="name" />
+          <label class="form__label" for="email">EMAIL</label>
+          <input type="email" id="email" />
+          <label class="form__label" for="text">Mensaje</label>
+          <textarea name="text" id="text"></textarea>
+          <button class="form__boton">Enviar</button>
+        </form>
+      </article>
+    </main>
+
+    <footer>
+      <section class="footer__date">
+        <img class="footer__logo" src="./image/logo.png" alt="logo" />
+        <p class="footer__info">© 2024 Marce</p>
+      </section>
+
+      <article class="footer__redes">
+        <section class="redes">
+          <img class="redes__img" src="./image/instagram.png" alt="instagram" />
+          <p>Instagram</p>
+        </section>
+        <section class="redes">
+          <img class="redes__img" src="./image/Vector.png" alt="Linkedin" />
+          <p>Linkedin</p>
+        </section>
+        <section class="redes">
+          <img class="redes__img" src="./image/git.png" alt="Github" />
+          <p>Github</p>
+        </section>
+      </article>
+    </footer>
+  </body>
+</html>
